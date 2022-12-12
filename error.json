@@ -1,186 +1,163 @@
 [
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Aave.csv",
+        "file": "../Crypto_regression/archive\\coin_Aave.csv",
         "error": [
-            "Accuracy:",
-            95.73,
-            "%."
+            95.65306967966663,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_BinanceCoin.csv",
+        "file": "../Crypto_regression/archive\\coin_BinanceCoin.csv",
         "error": [
-            "Accuracy:",
-            97.36,
-            "%."
+            97.22672160454525,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Bitcoin.csv",
+        "file": "../Crypto_regression/archive\\coin_Bitcoin.csv",
         "error": [
-            "Accuracy:",
-            98.55,
-            "%."
+            98.48016394479757,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Cardano.csv",
+        "file": "../Crypto_regression/archive\\coin_Cardano.csv",
         "error": [
-            "Accuracy:",
-            97.39,
-            "%."
+            97.68390438942771,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_ChainLink.csv",
+        "file": "../Crypto_regression/archive\\coin_ChainLink.csv",
         "error": [
-            "Accuracy:",
-            96.73,
-            "%."
+            96.66071248132259,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Cosmos.csv",
+        "file": "../Crypto_regression/archive\\coin_Cosmos.csv",
         "error": [
-            "Accuracy:",
-            97.18,
-            "%."
+            97.05984430804183,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_CryptocomCoin.csv",
+        "file": "../Crypto_regression/archive\\coin_CryptocomCoin.csv",
         "error": [
-            "Accuracy:",
-            97.39,
-            "%."
+            97.85035751297248,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Dogecoin.csv",
+        "file": "../Crypto_regression/archive\\coin_Dogecoin.csv",
         "error": [
-            "Accuracy:",
-            97.11,
-            "%."
+            97.1968616428882,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_EOS.csv",
+        "file": "../Crypto_regression/archive\\coin_EOS.csv",
         "error": [
-            "Accuracy:",
-            97.91,
-            "%."
+            97.65697732563416,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Ethereum.csv",
+        "file": "../Crypto_regression/archive\\coin_Ethereum.csv",
         "error": [
-            "Accuracy:",
-            97.24,
-            "%."
+            97.88429612478487,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Iota.csv",
+        "file": "../Crypto_regression/archive\\coin_Iota.csv",
         "error": [
-            "Accuracy:",
-            97.5,
-            "%."
+            97.60207726574183,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Litecoin.csv",
+        "file": "../Crypto_regression/archive\\coin_Litecoin.csv",
         "error": [
-            "Accuracy:",
-            97.99,
-            "%."
+            97.95455176296707,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Monero.csv",
+        "file": "../Crypto_regression/archive\\coin_Monero.csv",
         "error": [
-            "Accuracy:",
-            96.46,
-            "%."
+            95.9940376351307,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_NEM.csv",
+        "file": "../Crypto_regression/archive\\coin_NEM.csv",
         "error": [
-            "Accuracy:",
-            97.03,
-            "%."
+            97.0576430213947,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Polkadot.csv",
+        "file": "../Crypto_regression/archive\\coin_Polkadot.csv",
         "error": [
-            "Accuracy:",
-            96.15,
-            "%."
+            95.90455459000445,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Solana.csv",
+        "file": "../Crypto_regression/archive\\coin_Solana.csv",
         "error": [
-            "Accuracy:",
-            95.15,
-            "%."
+            95.91619311974517,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Stellar.csv",
+        "file": "../Crypto_regression/archive\\coin_Stellar.csv",
         "error": [
-            "Accuracy:",
-            97.34,
-            "%."
+            97.48149413410026,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Tether.csv",
+        "file": "../Crypto_regression/archive\\coin_Tether.csv",
         "error": [
-            "Accuracy:",
-            99.79,
-            "%."
+            99.75216878981722,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Tron.csv",
+        "file": "../Crypto_regression/archive\\coin_Tron.csv",
         "error": [
-            "Accuracy:",
-            97.43,
-            "%."
+            97.30187766890378,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Uniswap.csv",
+        "file": "../Crypto_regression/archive\\coin_Uniswap.csv",
         "error": [
-            "Accuracy:",
-            95.6,
-            "%."
+            96.21031396751228,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_USDCoin.csv",
+        "file": "../Crypto_regression/archive\\coin_USDCoin.csv",
         "error": [
-            "Accuracy:",
-            99.77,
-            "%."
+            99.77983608838913,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_WrappedBitcoin.csv",
+        "file": "../Crypto_regression/archive\\coin_WrappedBitcoin.csv",
         "error": [
-            "Accuracy:",
-            98.29,
-            "%."
+            98.49680244220114,
+            2
         ]
     },
     {
-        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_XRP.csv",
+        "file": "../Crypto_regression/archive\\coin_XRP.csv",
         "error": [
-            "Accuracy:",
-            97.82,
-            "%."
+            97.91462290161603,
+            2
         ]
     }
 ]

@@ -31,6 +31,6 @@ def write_errors_file(error_file_path, errors, filenames):
 
 
 if __name__ == '__main__':
-    filepath = 'C:/Users/StefanoPerdicchia/Crypto_regression/archive'
+    filepath = '../Crypto_regression/archive'
     output_error_path = ""
     test = read_files(filepath)

@@ -8,7 +8,7 @@ def get_error_data(filepath):
     min_label = data[0]['file']
 
     for value in data:
-        if value['error'] > max_error:
+        if value['error'] > max_error: # da errore quando entra in questo if, da cambiare da lista a int (da errore il maggiore!!!)
             max_error = value['error']
             max_label = value['file']
         if value['error'] < min_error:
