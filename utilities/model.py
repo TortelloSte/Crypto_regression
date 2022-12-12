@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import mean_squared_error
 
 def create_model(df):
     X = np.array([df.open, df.low, df.high])
@@ -17,4 +18,5 @@ def create_model(df):
     plt.plot(p, color = 'r')
     plt.plot(X_test, alpha = .2)
     plt.show()
-    return mean_absolute_error(y_test,p)
+    return mean_squared_error(y_test, p)
+    #return mean_absolute_error(y_test,p)

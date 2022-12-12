@@ -2,6 +2,7 @@ import glob
 import pandas as pd
 import json
 from utilities.model import create_model
+from utilities.random_forest import random_forest_V1
 #from utilities.model_lasso import model_lasso
 from sklearn.preprocessing import StandardScaler 
 
@@ -15,7 +16,7 @@ def read_files(filepath, error_file_path):
         df.drop('SNo', axis = 1, inplace=True)
         df.columns = df.columns.str.lower()
         #errors.append(create_model(df))
-        errors.append(create_model(df))
+        errors.append(random_forest_V1(df))
     write_errors_file(error_file_path, errors, filenames)
     pass
 
