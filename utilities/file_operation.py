@@ -24,7 +24,7 @@ def read_files(filepath, error_file_path):
 def write_errors_file(error_file_path, errors, filenames):
     result = []
     for filename, error in zip(filenames, errors):
-        result.append({'file': filename, 'error': error})
+        result.append({'file': filename, 'percentuale dati': error})
     json.dump(result, open(error_file_path, "w"), indent=4)
     pass
 

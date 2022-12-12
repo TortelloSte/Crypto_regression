@@ -1,94 +1,94 @@
 [
     {
         "file": "../Crypto_regression/archive\\coin_Aave.csv",
-        "error": 95.7536911884846
+        "percentuale dati": 91.2638649864858
     },
     {
         "file": "../Crypto_regression/archive\\coin_BinanceCoin.csv",
-        "error": 97.07451221161142
+        "percentuale dati": -50.73944837333144
     },
     {
         "file": "../Crypto_regression/archive\\coin_Bitcoin.csv",
-        "error": 98.46798354241238
+        "percentuale dati": 45.74329357777642
     },
     {
         "file": "../Crypto_regression/archive\\coin_Cardano.csv",
-        "error": 97.36980047879138
+        "percentuale dati": 72.21085799386262
     },
     {
         "file": "../Crypto_regression/archive\\coin_ChainLink.csv",
-        "error": 96.93634501293816
+        "percentuale dati": 68.2603265915941
     },
     {
         "file": "../Crypto_regression/archive\\coin_Cosmos.csv",
-        "error": 97.15665526977766
+        "percentuale dati": 92.54465150335211
     },
     {
         "file": "../Crypto_regression/archive\\coin_CryptocomCoin.csv",
-        "error": 97.32819602837026
+        "percentuale dati": 91.39818639668542
     },
     {
         "file": "../Crypto_regression/archive\\coin_Dogecoin.csv",
-        "error": 97.32601229039258
+        "percentuale dati": -1.1184965232028077
     },
     {
         "file": "../Crypto_regression/archive\\coin_EOS.csv",
-        "error": 97.6386437197902
+        "percentuale dati": 86.30533400719752
     },
     {
         "file": "../Crypto_regression/archive\\coin_Ethereum.csv",
-        "error": 97.23769342589493
+        "percentuale dati": -118.7139151905279
     },
     {
         "file": "../Crypto_regression/archive\\coin_Iota.csv",
-        "error": 97.3123588409685
+        "percentuale dati": 87.61418150137685
     },
     {
         "file": "../Crypto_regression/archive\\coin_Litecoin.csv",
-        "error": 97.89452262746318
+        "percentuale dati": 74.64298090814087
     },
     {
         "file": "../Crypto_regression/archive\\coin_Monero.csv",
-        "error": 97.28575088256734
+        "percentuale dati": -34.957832227100795
     },
     {
         "file": "../Crypto_regression/archive\\coin_NEM.csv",
-        "error": 96.54077507687511
+        "percentuale dati": -1471.3180835886083
     },
     {
         "file": "../Crypto_regression/archive\\coin_Polkadot.csv",
-        "error": 96.25007022842271
+        "percentuale dati": 91.6058512222179
     },
     {
         "file": "../Crypto_regression/archive\\coin_Solana.csv",
-        "error": 96.16574411060645
+        "percentuale dati": 72.94223031968143
     },
     {
         "file": "../Crypto_regression/archive\\coin_Stellar.csv",
-        "error": 97.41860362157867
+        "percentuale dati": 68.33857908542039
     },
     {
         "file": "../Crypto_regression/archive\\coin_Tether.csv",
-        "error": 99.83700002467819
+        "percentuale dati": 99.67359081074241
     },
     {
         "file": "../Crypto_regression/archive\\coin_Tron.csv",
-        "error": 96.60103705641455
+        "percentuale dati": 81.72649740044717
     },
     {
         "file": "../Crypto_regression/archive\\coin_Uniswap.csv",
-        "error": 95.91945810549036
+        "percentuale dati": 91.18096957382804
     },
     {
         "file": "../Crypto_regression/archive\\coin_USDCoin.csv",
-        "error": 99.81033039089003
+        "percentuale dati": 99.77832671602138
     },
     {
         "file": "../Crypto_regression/archive\\coin_WrappedBitcoin.csv",
-        "error": 98.288492709533
+        "percentuale dati": 89.4141676690772
     },
     {
         "file": "../Crypto_regression/archive\\coin_XRP.csv",
-        "error": 97.66443151717192
+        "percentuale dati": 67.03993703493424
     }
 ]
