@@ -2,6 +2,7 @@ import glob
 import pandas as pd
 import json
 from utilities.model import create_model
+#from utilities.model_lasso import model_lasso
 from sklearn.preprocessing import StandardScaler 
 
 
@@ -13,6 +14,7 @@ def read_files(filepath, error_file_path):
         df = pd.read_csv(filename, sep=',', header=0)
         df.drop('SNo', axis = 1, inplace=True)
         df.columns = df.columns.str.lower()
+        #errors.append(create_model(df))
         errors.append(create_model(df))
     write_errors_file(error_file_path, errors, filenames)
     pass

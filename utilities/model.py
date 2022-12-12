@@ -19,20 +19,3 @@ def create_model(df):
 
 
 
-
-# dopo provo a vedere di sistemare la regressione e non usare sklearn ma farla in scratch
-# k, 
-
-
-#     fileoutputname = 'C:/Users/StefanoPerdicchia/Crypto_regression/output.txt'
-
-# print(errors)
-
-# with open(fileoutputname, 'w') as f:
-#     outputstring = ""
-#     for i, error in enumerate(errors):
-#         outputstring += f'file {i + 1}, errore: {error}\n'
-#     f.write(outputstring)
-
-    # questo deve uscire in output della funzione
-    
