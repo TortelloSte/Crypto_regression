@@ -1,4 +1,7 @@
 # non viene usata visto che i dati interni non sono ottimali!
+# da capire come funziona e come implementare la lasso invece che la regressione linare
+# cercare la documentazione online su come si usa!!
+# https://www.mygreatlearning.com/blog/understanding-of-lasso-regression/#:~:text=The%20lasso%20procedure%20encourages%20simple,like%20variable%20selection%2Fparameter%20elimination.
 
 import numpy as np
 import pandas as pd
