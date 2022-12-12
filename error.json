@@ -1,94 +1,94 @@
 [
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Aave.csv",
-        "error": 7.617368214647732
+        "error": 6.550658785883848
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_BinanceCoin.csv",
-        "error": 1.2628801213832894
+        "error": 0.9270169402331675
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Bitcoin.csv",
-        "error": 78.14576489483967
+        "error": 90.27896261706383
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Cardano.csv",
-        "error": 0.005304385548138839
+        "error": 0.005271414407280358
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_ChainLink.csv",
-        "error": 0.12872941955123227
+        "error": 0.15316839252587997
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Cosmos.csv",
-        "error": 0.18717766422090554
+        "error": 0.1606119521143594
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_CryptocomCoin.csv",
-        "error": 0.0015406128027625197
+        "error": 0.0017491021594218416
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Dogecoin.csv",
-        "error": 0.0005616348005230738
+        "error": 0.0004751029646540356
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_EOS.csv",
-        "error": 0.08434554607732452
+        "error": 0.09065183379411118
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Ethereum.csv",
-        "error": 5.899661987577453
+        "error": 7.149030976898498
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Iota.csv",
-        "error": 0.02134020053523667
+        "error": 0.01979217008034342
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Litecoin.csv",
-        "error": 0.7895664409074348
+        "error": 0.9126485217209535
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Monero.csv",
-        "error": 1.6144972558180546
+        "error": 1.5765745573164998
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_NEM.csv",
-        "error": 0.003417889390888519
+        "error": 0.003930265367830803
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Polkadot.csv",
-        "error": 0.4419368911856769
+        "error": 0.3858134598199416
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Solana.csv",
-        "error": 0.2501719282322952
+        "error": 0.3082064927336035
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Stellar.csv",
-        "error": 0.00306688341176756
+        "error": 0.002682587437003988
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Tether.csv",
-        "error": 0.0017658519248551462
+        "error": 0.002088064609703007
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Tron.csv",
-        "error": 0.0007804404691200831
+        "error": 0.0007605565182879884
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Uniswap.csv",
-        "error": 0.48130924196313035
+        "error": 0.43945912864784914
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_USDCoin.csv",
-        "error": 0.0018239684252140704
+        "error": 0.0023032811525472664
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_WrappedBitcoin.csv",
-        "error": 285.7402647756423
+        "error": 304.4057150245854
     },
     {
         "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_XRP.csv",
-        "error": 0.005611260517498013
+        "error": 0.004937005343297613
     }
 ]
