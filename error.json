@@ -1,0 +1,94 @@
+[
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Aave.csv",
+        "error": 8.137539902083926
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_BinanceCoin.csv",
+        "error": 1.4025235969145788
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Bitcoin.csv",
+        "error": 82.90917492067594
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Cardano.csv",
+        "error": 0.00635473688086469
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_ChainLink.csv",
+        "error": 0.15202384896299978
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Cosmos.csv",
+        "error": 0.1717593244398579
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_CryptocomCoin.csv",
+        "error": 0.001680510147740299
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Dogecoin.csv",
+        "error": 0.0005910500434775497
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_EOS.csv",
+        "error": 0.09676599146968191
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Ethereum.csv",
+        "error": 6.387167836687025
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Iota.csv",
+        "error": 0.022043521782142635
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Litecoin.csv",
+        "error": 0.9069207294947534
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Monero.csv",
+        "error": 1.2925647410371912
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_NEM.csv",
+        "error": 0.0036214911846278734
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Polkadot.csv",
+        "error": 0.4608042851984306
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Solana.csv",
+        "error": 0.35656568618803314
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Stellar.csv",
+        "error": 0.002404238620474609
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Tether.csv",
+        "error": 0.0018545696890583702
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Tron.csv",
+        "error": 0.0009844613107702488
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_Uniswap.csv",
+        "error": 0.48558354906821344
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_USDCoin.csv",
+        "error": 0.002161411920759266
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_WrappedBitcoin.csv",
+        "error": 285.2870368096701
+    },
+    {
+        "file": "C:/Users/StefanoPerdicchia/Crypto_regression/archive\\coin_XRP.csv",
+        "error": 0.005932218752165241
+    }
+]

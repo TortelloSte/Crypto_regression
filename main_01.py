@@ -8,13 +8,12 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error
 
 
-# creare una funzione per prendere in input i dataset
-# far si che in ogni dataset elimini la collonna SNo
-# sistemare i dati per ogni dataset
-# modificare le maiuscole in minuscole
-# normalizzare i dati!!!!
-# ------
-# questo è il primo oassaggio per sistemare i dati!
+# creare una funzione che mi permetta di fare diverse cose:
+# fare minimo due/tre funzioni
+# una per sistemare i dati in ogni dataset, una per applicare l'algoritmo 
+# una finale per prendere il minore e il maggiore e studiare i grafici solo di quei due!
+
+# normalizzare i dati
 
 errors = []
 
@@ -23,6 +22,8 @@ for filename in glob.glob('C:/Users/StefanoPerdicchia/Crypto_regression/archive/
     df = pd.read_csv(filename, sep=',', header=0)
     df.drop('SNo', axis = 1, inplace=True)
     df.columns = df.columns.str.lower()
+    # normalizzazione dei dati
+
     #print(df.columns)
     # fare preprocessing
     #normalizare i dati 
@@ -30,6 +31,8 @@ for filename in glob.glob('C:/Users/StefanoPerdicchia/Crypto_regression/archive/
     # modello di regressione!
     # x = np.mean(df.Open, df.Close)
     # x1 = np.mean(df.Low, df.High)
+    
+    # modello...
     X = np.array([df.open, df.low, df.high])
     X = X.transpose()
     y = df.close
@@ -56,7 +59,7 @@ for filename in glob.glob('C:/Users/StefanoPerdicchia/Crypto_regression/archive/
     # regressione lineare
     plt.scatter(x =df.index, y = df.close)
     plt.xlabel('...!!!')
-	plt.ylabel('???')
+    plt.ylabel('???')
     plt.show()
     # nel plot andare a creare le label per dare i nomi a x e y!
     fileoutputname = 'C:/Users/StefanoPerdicchia/Crypto_regression/output.txt'
