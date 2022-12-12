@@ -15,7 +15,7 @@ def read_files(filepath, error_file_path):
         df = pd.read_csv(filename, sep=',', header=0)
         df.drop('SNo', axis = 1, inplace=True)
         df.columns = df.columns.str.lower()
-        #errors.append(create_model(df))
+        # errors.append(create_model(df))
         errors.append(random_forest_V1(df))
     write_errors_file(error_file_path, errors, filenames)
     pass
