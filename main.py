@@ -50,7 +50,8 @@ for filename in glob.glob('C:/Users/StefanoPerdicchia/Crypto_regression/archive/
     # plt.plot(X_test, alpha = .2)
     # plt.show()
 
-    # dividere 70-30 train, test
+    # dividere 70-30 train, test (oppure farlo 80-20)
+    # vedere cosa viene meglio
     # fare grafico
     # regressione lineare
     # plt.scatter(x =df.index, y = df.close)
