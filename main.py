@@ -54,8 +54,10 @@ for filename in glob.glob('C:/Users/StefanoPerdicchia/Crypto_regression/archive/
     # vedere cosa viene meglio
     # fare grafico
     # regressione lineare
-    # plt.scatter(x =df.index, y = df.close)
-    # plt.show()
+    plt.scatter(x =df.index, y = df.close)
+    plt.xlabel('...!!!')
+	plt.ylabel('???')
+    plt.show()
     # nel plot andare a creare le label per dare i nomi a x e y!
     fileoutputname = 'C:/Users/StefanoPerdicchia/Crypto_regression/output.txt'
 
