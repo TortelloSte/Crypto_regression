@@ -19,7 +19,7 @@ from sklearn.metrics import mean_absolute_error
 errors = []
 
 
-for filename in glob.glob('C:/Users/stefa/OneDrive/Desktop/esame pierandrei/archive/*.csv'):
+for filename in glob.glob('C:/Users/StefanoPerdicchia/Crypto_regression/archive/*.csv'):
     df = pd.read_csv(filename, sep=',', header=0)
     df.drop('SNo', axis = 1, inplace=True)
     df.columns = df.columns.str.lower()
@@ -42,7 +42,8 @@ for filename in glob.glob('C:/Users/stefa/OneDrive/Desktop/esame pierandrei/arch
     # print(p)
     m = mean_absolute_error(y_test,p)
     print(m)
-
+# provare a programmare una regressione lineare from scratch, quindi fatta da me
+# provare a capire come funziona la LASSO regression che magari può essere implementata all'interno del codice su una funzione tutta sua!
     errors.append(m)
 
     # plt.plot(p, color = 'r')
@@ -54,8 +55,8 @@ for filename in glob.glob('C:/Users/stefa/OneDrive/Desktop/esame pierandrei/arch
     # regressione lineare
     # plt.scatter(x =df.index, y = df.close)
     # plt.show()
-    fileoutputname = 'archive/output.txt'
-
+    # nel plot andare a creare le label per dare i nomi a x e y!
+    fileoutputname = 'C:/Users/StefanoPerdicchia/Crypto_regression/output.txt'
 
 print(errors)
 
@@ -64,3 +65,6 @@ with open(fileoutputname, 'w') as f:
     for i, error in enumerate(errors):
         outputstring += f'file {i + 1}, errore: {error}\n'
     f.write(outputstring)
+
+    # andare a vedere il file con meno e con piu errore, i motivi ecc!
+    
