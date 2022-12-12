@@ -17,3 +17,6 @@ def random_forest_V1(df):
     mape = 100 * (errors / y_test)
     accuracy = 100 - np.mean(mape)
     return accuracy
+
+def random_forest_V2(df):
+    pass
