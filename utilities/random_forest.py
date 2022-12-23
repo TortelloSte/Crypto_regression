@@ -9,7 +9,7 @@ def random_forest_V1(df):
     X = X.transpose()
     y = df.close
     X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.3, shuffle=None)
-    rf = RandomForestRegressor(n_estimators = 300, random_state = 42, max_depth= 10) # da fare prove
+    rf = RandomForestRegressor(n_estimators = 300, random_state = 42, max_depth= 3) # da fare prove
     rf.fit(X_train, y_train)
     predictions = rf.predict(X_test)
     errors = abs(predictions - y_test) 
