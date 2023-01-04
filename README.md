@@ -1,4 +1,4 @@
-# Crypto_regression
+# Regressione e Crypto
     Bitcoin è una moneta digitale decentralizzata che ha acquisito popolarità negli ultimi dieci anni. Poiché il prezzo del Bitcoin è fluttuato in modo drammatico, c'è un crescente interesse nell'utilizzo di tecniche di machine learning per analizzare e prevedere il prezzo del Bitcoin.
     Il seguente lavoro vuole essere un progetto per andare a fare predizioni sui prezzi delle cryptovalute, nel particolare di Bitcoin stesso partendo dai loro prezzi storici, tutti questi dati sono accessibili presso il seguente link: 
         https://www.kaggle.com/datasets/sudalairajkumar/cryptocurrencypricehistory.
