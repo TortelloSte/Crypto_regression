@@ -1,15 +1,19 @@
 # Crypto_regression
-    Il seguente lavoro vuole essere un progetto per andare a fare predizioni sui prezzi delle cryptovalute, nel particolare di Bitcoin partendo dai loro prezzi storici, tutti questi dati sono accessibili presso il seguente link: 
-        https://www.kaggle.com/datasets/sudalairajkumar/cryptocurrencypricehistory
+    Bitcoin è una moneta digitale decentralizzata che ha acquisito popolarità negli ultimi dieci anni. Poiché il prezzo del Bitcoin è fluttuato in modo drammatico, c'è un crescente interesse nell'utilizzo di tecniche di machine learning per analizzare e prevedere il prezzo del Bitcoin.
+    Il seguente lavoro vuole essere un progetto per andare a fare predizioni sui prezzi delle cryptovalute, nel particolare di Bitcoin stesso partendo dai loro prezzi storici, tutti questi dati sono accessibili presso il seguente link: 
+        https://www.kaggle.com/datasets/sudalairajkumar/cryptocurrencypricehistory.
+    
+    Nel caso del nostro programma dalla cartella andiamo ad estrarre un solo dataset, nel nostro caso appunto andiamo ad estrapolare il file coin_Bitcoin.it
 
     Per poter eseguire il programma sono necessari diverse librerie all'interno della nostra area di lavoro in python, infatti le librerie necessarie da installare sono:
-    - glob
     - pandas
     - sklearn
-    - (da completare la lista)
+    - numpy
+    - datetime
+    - matplotlib
 
-    Il progetto viene suddiviso in tre parti principali, una prima dove si vanno a fare le analisi del dataset, dove andiamo a rimuovere una colonna, controlliamo che i dati siano corretti e non siano presenti dei valori nulli e infine andiamo a graficare tutti i dati presenti per poter vedere in maniera visiva quali sono i nostri dati.
-    Successivamente si è deciso di applicare un modello di ML di Regressione, ossia un DecisioTree.
-    Infine dopo aver applicato questo modello andiamo a vedere se sono presenti delle predizioni attendibili per il nostro modello.
+    In questo progetto, abbiamo utilizzato una rete neurale e un Decision Tree per analizzare i dati del Bitcoin. La rete neurale, implementata utilizzando la funzione sequential() della libreria keras, è stata addestrata su un dataset di prezzi storici del Bitcoin. Il Decision Tree è stato addestrato sullo stesso dataset. Per valutare le prestazioni dei modelli, abbiamo diviso il dataset in un insieme di training e un insieme di test. La rete neurale e il regressore ad albero di decisione sono stati entrambi addestrati sull'insieme di training e quindi testati sull'insieme di test.
 
-    -- Prima di applicare questo modello è stato applicato un modello di regressione linare, ma visto che sembrava troppo "semplice" applicare un modello del genere su questo tipo di dati, si è deciso di implementare un modello di DecisionTree Regressor!
+     Infine vorrei citare:
+    durante lo studio è stato eseguito molteplici volte la rete neurale che ci ha dato risultati non soddisfacenti in mancanza di dati sufficienti, inoltre la regressione linare applicata all'inizio risulta ancora il modello migliore per la predizione dei dati.
+    Questi dati pero sono stati influenzati da situazioni esterne che influenzano il mercato azionario.

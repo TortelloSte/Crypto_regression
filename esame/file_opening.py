@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import datetime as dt
-import plotly.graph_objects as go
 
 def datas(filepath):
     df = pd.read_csv(filepath)
