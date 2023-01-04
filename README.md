@@ -12,7 +12,10 @@
     - datetime
     - matplotlib
 
-    In questo progetto, abbiamo utilizzato una rete neurale e un Decision Tree per analizzare i dati del Bitcoin. La rete neurale, implementata utilizzando la funzione sequential() della libreria keras, è stata addestrata su un dataset di prezzi storici del Bitcoin. Il Decision Tree è stato addestrato sullo stesso dataset. Per valutare le prestazioni dei modelli, abbiamo diviso il dataset in un insieme di training e un insieme di test. La rete neurale e il regressore ad albero di decisione sono stati entrambi addestrati sull'insieme di training e quindi testati sull'insieme di test.
+    In questo progetto, abbiamo utilizzato una rete neurale e un Decision Tree per analizzare i dati del Bitcoin.\
+    La rete neurale, implementata utilizzando la funzione sequential() della libreria keras, è stata addestrata su un dataset di prezzi storici del Bitcoin.\
+    Il Decision Tree è stato addestrato sullo stesso dataset. Per valutare le prestazioni dei modelli,\
+    abbiamo diviso il dataset in un insieme di training e un insieme di test. La rete neurale e il regressore ad albero di decisione sono stati entrambi addestrati sull'insieme di training e quindi testati sull'insieme di test.
 
      Infine vorrei citare:
     durante lo studio è stato eseguito molteplici volte la rete neurale che ci ha dato risultati non soddisfacenti in mancanza di dati sufficienti, inoltre la regressione linare applicata all'inizio risulta ancora il modello migliore per la predizione dei dati.
