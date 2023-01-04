@@ -15,9 +15,6 @@ def datas(filepath):
     df1.drop(columns=["Date"], axis = 1, inplace=True)
     df1.dropna(inplace= True)
     fig = go.Figure(data = [go.Candlestick(x = df['Date'],
-            open = df1['Open'],
-            high = df1['High'],
-            low = df1['Low'],
             close = df1['Close'])])
     fig.show()
     return df1
