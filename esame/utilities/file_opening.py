@@ -14,7 +14,4 @@ def datas(filepath):
     df1 = pd.read_csv("./archive/bitcoin_update.csv")
     df1.drop(columns=["Date"], axis = 1, inplace=True)
     df1.dropna(inplace= True)
-    fig = go.Figure(data = [go.Candlestick(x = df['Date'],
-            close = df1['Close'])])
-    fig.show()
     return df1

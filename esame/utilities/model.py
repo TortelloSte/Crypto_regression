@@ -17,8 +17,8 @@ def modello_rete(filepath):
     y = datas(filepath)["Close"]
     x = datas(filepath).drop(["Close", 'Date_year','Date_month','Date_day'], axis= 1)
     x_train, x_test, y_train, y_test= train_test_split(x, y, shuffle=True, test_size = 0.1)
-    model.fit(x_train, y_train, epochs= 200, batch_size= 300)
+    model.fit(x_train, y_train, epochs= 50, batch_size= 32)
     pred= model.predict(x_test)
     mse= mean_squared_error(y_test, pred)
-    print(mse)
+    return mse
     #print(model.summary())

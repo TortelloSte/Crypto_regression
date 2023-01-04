@@ -11,5 +11,5 @@ def decisiotree(filepath):
     albero.fit(x_train, y_train)
     ypredd=albero.predict(x_test)
     mae = mean_absolute_error(y_test, ypredd)
-    print(mae)
+    return mae
     # printato!
