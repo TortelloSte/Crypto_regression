@@ -1,7 +1,7 @@
 # from utilities.model import modello_rete
-from utilities.file_opening import datas
-from utilities.decision_tree import decisiotree
-from utilities.regressione import regress
+from file_opening import datas
+from decision_tree import decisiotree
+from regressione import regress
 
 
 if __name__ == '__main__':
