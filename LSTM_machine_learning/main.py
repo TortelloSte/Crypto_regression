@@ -8,8 +8,7 @@ from keras.layers import Dropout
 from keras.layers import Dense
 
 
-url = 'https://raw.githubusercontent.com/mwitiderrick/stockprice/master/NSE-TATAGLOBAL.csv'
-dataset_train = pd.read_csv(url)
+dataset_train = pd.read_csv('dataset_train.csv')
 training_set = dataset_train.iloc[:, 1:2].values
 # print(dataset_train.head())
 
@@ -37,8 +36,7 @@ model.compile(optimizer='adam',loss='mean_squared_error')
 model.fit(X_train,y_train,epochs=100,batch_size=32)
 
 
-url = 'https://raw.githubusercontent.com/mwitiderrick/stockprice/master/tatatest.csv'
-dataset_test = pd.read_csv(url)
+dataset_test = pd.read_csv('dataset_test.csv')
 real_stock_price = dataset_test.iloc[:, 1:2].values
 dataset_total = pd.concat((dataset_train['Open'], dataset_test['Open']), axis = 0)
 inputs = dataset_total[len(dataset_total) - len(dataset_test) - 60:].values
@@ -52,10 +50,10 @@ X_test = np.reshape(X_test, (X_test.shape[0], X_test.shape[1], 1))
 predicted_stock_price = model.predict(X_test)
 predicted_stock_price = sc.inverse_transform(predicted_stock_price)
 
-plt.plot(real_stock_price, color = 'black', label = 'TATA Stock Price')
-plt.plot(predicted_stock_price, color = 'green', label = 'Predicted TATA Stock Price')
-plt.title('TATA Stock Price Prediction')
-plt.xlabel('Time')
+plt.plot(real_stock_price, color = 'black', label = 'prezzo in stock')
+plt.plot(predicted_stock_price, color = 'green', label = 'dati predetti')
+plt.title('LSTM analisi')
+plt.xlabel('tempo')
 plt.ylabel('TATA Stock Price')
 plt.legend()
 plt.show()
