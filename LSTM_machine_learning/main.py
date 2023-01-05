@@ -20,8 +20,8 @@ y_train = []
 for i in range(60, 2035):
     X_train.append(training_set_scaled[i-60:i, 0])
     y_train.append(training_set_scaled[i, 0])
-    X_train, y_train = np.array(X_train), np.array(y_train)
-    X_train = np.reshape(X_train, (X_train.shape[0], X_train.shape[1], 1))
+X_train, y_train = np.array(X_train), np.array(y_train)
+X_train = np.reshape(X_train, (X_train.shape[0], X_train.shape[1], 1))
 
 model = Sequential()
 model.add(LSTM(units=50,return_sequences=True,input_shape=(X_train.shape[1], 1)))
@@ -47,10 +47,10 @@ inputs = sc.transform(inputs)
 X_test = []
 for i in range(60, 76):
     X_test.append(inputs[i-60:i, 0])
-    X_test = np.array(X_test)
-    X_test = np.reshape(X_test, (X_test.shape[0], X_test.shape[1], 1))
-    predicted_stock_price = model.predict(X_test)
-    predicted_stock_price = sc.inverse_transform(predicted_stock_price)
+X_test = np.array(X_test)
+X_test = np.reshape(X_test, (X_test.shape[0], X_test.shape[1], 1))
+predicted_stock_price = model.predict(X_test)
+predicted_stock_price = sc.inverse_transform(predicted_stock_price)
 
 plt.plot(real_stock_price, color = 'black', label = 'TATA Stock Price')
 plt.plot(predicted_stock_price, color = 'green', label = 'Predicted TATA Stock Price')
