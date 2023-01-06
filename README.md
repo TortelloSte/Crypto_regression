@@ -13,6 +13,7 @@ infatti le librerie necessarie da installare sono:
 - numpy
 - datetime
 - matplotlib
+- keras
 
 
 Possiamo notare come i file siano divisi in diverse cartelle, questo perchè sono stati utilizzati diversi metodi di Regressione, per quanto riguarda l'esame, esiste la cartella apposta (per il corso Data Modelling in ITS). 
