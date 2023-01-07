@@ -3,7 +3,7 @@ Bitcoin è una moneta digitale decentralizzata che ha acquisito popolarità negl
 Poiché il prezzo del Bitcoin è fluttuato in modo drammatico, c'è un crescente interesse nell'utilizzo di tecniche di machine learning 
 per analizzare e prevedere il prezzo del Bitcoin.
 In questo progetto, abbiamo analizzato i dati storici di Bitcoin utilizzando diversi modelli di regressione
-Tutti i dati sono reperibili al seguente link: < ulr = "https://www.kaggle.com/datasets/sudalairajkumar/cryptocurrencypricehistory"> , estraendo dal file il dataset coin_Bitcoin.csv.
+Tutti i dati sono reperibili al seguente link: https://www.kaggle.com/datasets/sudalairajkumar/cryptocurrencypricehistory , estraendo dal file il dataset coin_Bitcoin.csv.
     
 # Requirement:
 Per poter eseguire il programma sono necessari diverse librerie all'interno della nostra area di lavoro in python, 
