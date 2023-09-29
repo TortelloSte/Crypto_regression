@@ -1,0 +1,9 @@
+I modelli che vengono studiati in questa prima versione della repo sono:
+
+- regressione lineare semplice
+- alberi decisionali
+- rete neurale semplice
+
+i file rimanenti servono per andare ad importare correttamente il file e ovviamente il main che serve per eseguire tutti i modelli.
+
+
