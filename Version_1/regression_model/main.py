@@ -3,7 +3,7 @@ from deep_learning_model import modello_rete_neurale
 from regressione_lineare import regression_model
 
 # Percorso del file dati
-data_file_path = "./DATA/archive/coin_Bitcoin.csv"
+data_file_path = "path_al_file.csv" # inserire il proprio path per il codice
 
 # Esegui la funzione regression_model e salva l'errore medio assoluto ottenuto
 mae_regressione = regression_model(data_file_path)
