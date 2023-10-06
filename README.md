@@ -1,4 +1,4 @@
-### Analysis of Bitcoin Historical Data:
+# Analysis of Bitcoin Historical Data:
 Bitcoin is a decentralized digital currency that has gained popularity over the last ten years. As the price of Bitcoin has fluctuated dramatically, there is a growing interest in using machine learning techniques to analyze and predict the price of Bitcoin. In this project, I have analyzed historical Bitcoin data using various regression methods and models. The ultimate purpose of this project is to demonstrate how this data can be studied through machine learning.
 
 All the data used for this project can be found directly at the following link: https://www.kaggle.com/datasets/sudalairajkumar/cryptocurrencypricehistory, from which you can extract the dataset coin_Bitcoin.csv since the folder contains different datasets for different digital coins. The study focuses on Bitcoin precisely because of its popularity.
@@ -27,7 +27,7 @@ conda install 'library name' (if using Anaconda as the environment)
 
 
 
-### How to Use the Project:
+## How to Use the Project:
 
 The project is divided into two main folders:
 
@@ -45,7 +45,7 @@ Afterward, add the DATA folder to the repository where you intend to use the pro
 
 
 
- ### Regression Model
+ ## Regression Model
 
  # 1.
 
@@ -53,5 +53,5 @@ Afterward, add the DATA folder to the repository where you intend to use the pro
 
 
 
-   # Author:
+   ### Author:
    Stefano Perdicchia
