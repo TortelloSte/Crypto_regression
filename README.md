@@ -1,18 +1,18 @@
-# Analisi dei dati storici di Bitcoin:
-Bitcoin è una moneta digitale decentralizzata che ha acquisito popolarità negli ultimi dieci anni.
-Poiché il prezzo del Bitcoin è fluttuato in modo drammatico, c'è un crescente interesse nell'utilizzo di tecniche di machine learning  per analizzare e prevedere il prezzo del Bitcoin.
-In questo progetto, sono andato ad analizzare i dati storici di bitconi utilizzando differenti metodi e modelli di regressione. Lo scopo ultimo di questo progetto è mostrare come questi dati possano essere studiati attraverso il machine Learning.
-Tutti i dati che sono stati utilizzati per questo progetto si possono trovare direttamente al seguente link:
-https://www.kaggle.com/datasets/sudalairajkumar/cryptocurrencypricehistory , dal quale si può estrarre il dataset coin_Bitcoin.csv.
+### Analysis of Bitcoin Historical Data:
+Bitcoin is a decentralized digital currency that has gained popularity over the last ten years. As the price of Bitcoin has fluctuated dramatically, there is a growing interest in using machine learning techniques to analyze and predict the price of Bitcoin. In this project, I have analyzed historical Bitcoin data using various regression methods and models. The ultimate purpose of this project is to demonstrate how this data can be studied through machine learning.
 
-Questo studio viene dunque condotto mediante l'utilizzo di python come linguaggio di programmazione per l'implementazione di modelli di Machine Learning, e nel progetto verranno spiegati gli aspetti teorici che si trovano dietro a questi modelli, in maniera tale da poter essere utilizzati per studiare e comprendere i differenti modelli di *Regressione*. 
+All the data used for this project can be found directly at the following link: https://www.kaggle.com/datasets/sudalairajkumar/cryptocurrencypricehistory, from which you can extract the dataset coin_Bitcoin.csv since the folder contains different datasets for different digital coins. The study focuses on Bitcoin precisely because of its popularity.
 
+This study is conducted using Python3 as the programming language for implementing machine learning models, and the project will explain the theoretical aspects behind these models to enable them to be used to study and understand the different regression models used in Version_1 of the project, which was an assignment during my course of study.
 
-# Requirement:
-Per poter eseguire il programma sono necessari diverse librerie all'interno della nostra area di lavoro in python, il mio consiglio è quello di sfruttare un enviroment nuovo per lo sviluppo di questo studio, il quale lascio pubblico in maniera tale da permettere a chiunque di modificarlo e migliorare i codici.
+Subsequently, I decided to revisit this project and create a Version_2 where I apply different techniques to show how to analyze this data in a different way.
 
 
-Le librerie necessarie per questo studio sono le seguenti:
+## Requirements:
+To run the program, several libraries are required in our Python workspace. My recommendation is to use a new environment for the development of this study, which I make public to allow anyone to modify and improve the code.
+
+The libraries required for this study are as follows:
+
 - pandas
 - sklearn
 - numpy
@@ -20,28 +20,32 @@ Le librerie necessarie per questo studio sono le seguenti:
 - matplotlib
 - keras
 
-Queste possono essere installate tramite terminale, con i comandi:
-pip install 'nome librerie'
-conda install 'nome librerie' (se si sfrutta anaconda come env)
+These can be installed via the terminal with the following commands:
 
-
-# Come utilizzare il progetto:
-Il progetto viene suddiviso in due cartelle principali:
-1. La cartella denominata 'Version_1' fa rifermento ai codici che sono stati sviluppati durante il corso degli studi e successivamente modificati per rendere i codici maggiormente leggibili ed interpretabili.
-- All'interno di questa cartella si trovano tre sotto cartelle che sono cosi suddivide:
-      - *CoinMarketCap_Api*: al suo interno si trovano i codici che permetto tramite API di estrapolare i dati interenti a Bitcoin direttamente da internet e aggiornati costantemente. Questo codice è stato inserito per esplorare altri metodi di utilizzo di python e di come i dati possano variare rispetto a quelli presti direttamente da Kaggle.com
-      - *LSTM_machine_learning*: Dentro a questa cartella si trova il codice che applica il modello LSTM, il quale è stato una prova di applicazione di un modello particolare che verrà spiegato successivamente.
-      - *regression_model*: questa è la cartella principale dove si trovano tutti i codici dei modelli applicati al dataset, inoltre per decisione personale ho deciso di scrivere un codice chiamato main e migliorato per andare a valutare i differenti modelli cosi da capire quale fosse il migliore.
-2. La cartella denominata 'Version_2' fa riferimento ai nuovi codici che sono stati testati successivamente al corso di studi e che quindi risultano migliorati.
-      - All'interno sono presenti solamente due codici, uno è il main che esegue tutti i calcoli, mentre l'altro è un unico macro codice che implementa tutti i modelli applicati nella cartella Version_1 però ottimizzando i codici stessi per raggiungere una struttura differente e migliore.
-
-
-Per poter utilizzare il progetto consiglio di clonare l'intero main da github, e successivamente di leggere dettagliatamente il file readme.md cosi da comprendere, visto i fini del progetto, la sezione sottostante che spiega come funzionano i differenti modelli di regressione.
-Successivamente aggiungere la cartella data al progetto e scaricare da github i dataset con tutti i dati. 
+pip install 'library name'
+conda install 'library name' (if using Anaconda as the environment)
 
 
 
- ### Modelli di regressione
+### How to Use the Project:
+
+The project is divided into two main folders:
+
+1. The folder named 'Version_1' refers to all the code that was developed during the course of studies and subsequently modified to make the code more readable and interpretable once the exam project was delivered.
+      Within this folder, there are two other subfolders as follows:
+      - LSTM_machine_learning: Inside this folder is the code that applies the LSTM model, which was a test of applying a particular model that will be explained later in the section dedicated to different models.
+      - regression_model: This is the main folder where all the code for the models applied to the dataset is located. Additionally, by personal choice, I decided to write a code called "main" and improved it to evaluate the different models to understand which one was the best.
+2. The folder named 'Version_2' refers to the new codes that were tested after the course of studies and are therefore improved or are a proof of implementation of different models in different ways.
+      - Inside, there are only two codes. The first is main.py, which allows us to run the code inside the utils.py file, which will be explained in detail in the following paragraphs.
+
+
+To use the project, I recommend cloning the entire repository from GitHub and then reading the readme.md file in detail to understand, given the project's objectives, the section below that explains how the different regression models work. 
+
+Afterward, add the DATA folder to the repository where you intend to use the project and download the datasets with all the data from Kaggle.
+
+
+
+ ### Regression Model
 
  # 1.
 
@@ -49,5 +53,5 @@ Successivamente aggiungere la cartella data al progetto e scaricare da github i 
 
 
 
-   # Autore:
+   # Author:
    Stefano Perdicchia
